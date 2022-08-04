@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.selectContainer{
+    width: max-content ;
+    padding-inline: 10px;
+    height: 40px;
+    outline: none;
+    border : 1px solid #283747;
+    border-radius: 3px; 
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.btnDelete{
+    width: 20%;
+    height: 40px;
+    margin: 10px;
+    outline: none;
+    border : 1px solid #283747;
+    border-radius: 3px; 
+    background-color: rgba(255, 255, 255, 0.4); 
+}

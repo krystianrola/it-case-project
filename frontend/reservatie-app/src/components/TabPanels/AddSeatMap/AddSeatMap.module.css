@@ -1,0 +1,66 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.selectContainer {
+}
+
+.selectItem {
+  outline: none;
+  background-color: transparent;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.seatsDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  outline: none;
+  background-color: transparent;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.imageContainer {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: relative;
+}
+.seatsContainer {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

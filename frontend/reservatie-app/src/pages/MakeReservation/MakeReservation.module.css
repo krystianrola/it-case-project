@@ -1,0 +1,26 @@
+.containter{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    padding: 2px;
+    font-family: "Roboto Mono", monospace;
+}
+.inputfieldsContainer{
+    padding: 2px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttonStyle{
+    width: 15rem;
+    margin: auto;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+}
+

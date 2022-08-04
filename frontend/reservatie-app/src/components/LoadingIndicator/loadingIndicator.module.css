@@ -1,0 +1,30 @@
+/* loading circle */
+.loadingContainer {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  /* min-height: 100vh; */
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.loadingCircle {
+  content: " ";
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #283747;
+  border-color: #283747 transparent #283747 transparent;
+  animation: loading 1.2s linear infinite;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,9 @@
+.drag{
+    z-index: 9999;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    z-index: 999;
+    background-color: black;
+    position: absolute;
+  }

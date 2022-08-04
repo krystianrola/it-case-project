@@ -1,0 +1,25 @@
+.container{
+    padding: 2px;
+}
+.title{
+    margin-top: 0;
+}
+.dateInput{
+    /* background-color: #283747;
+    color: #ffffff; */
+    width: 13rem;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 3px;
+}
+::-webkit-calendar-picker-indicator{
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.dateInput:hover::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+}

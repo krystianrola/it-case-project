@@ -1,0 +1,8 @@
+.buttons{
+    width: 50%;
+    height: 3rem;
+    min-width: fit-content;
+    text-align: center;
+    flex: 1;
+    justify-content: space-evenly;
+}

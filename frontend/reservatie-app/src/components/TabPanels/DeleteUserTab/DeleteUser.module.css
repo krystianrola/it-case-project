@@ -1,0 +1,33 @@
+.table {
+    background-color: #F5F2D0;
+    font-size: 20px;
+    border-radius: 20px;
+    color: grey;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.button {
+    padding: 10px;
+}
+.button p{
+    color: grey;
+}
+
+
+table td, table th {
+    border: 1px solid black;
+  }
+  table tr:first-child th {
+    border-top: 1px;
+  }
+  table tr:last-child td {
+    border-bottom: 1px;
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 1px;
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 1px;
+  }

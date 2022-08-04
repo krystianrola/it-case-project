@@ -1,0 +1,19 @@
+{
+    "dark": {
+        "textColor": "#fff",
+        "backgroundColor": "#566573",
+        "headerBackgroundColor": "#283747",
+        "headerHoverEffectColor" :"",
+        "deviderColor": "#ECF0F1",
+        "colorModeIcon": ""
+    },
+    "light":{
+        "textColor": "#000",
+        "backgroundColor": "#ECF0F1",
+        "headerBackgroundColor": "#283747",
+        "headerHoverEffectColor" :"#566573", 
+        "deviderColor": "#566573",
+        "colorModeIcon": ""
+    }
+    
+}

@@ -1,0 +1,15 @@
+.constainer{
+    padding: 2px;
+}
+.title{
+    margin-top: 0;
+}
+.selectItem{
+    width: 15rem;
+    height: 3rem;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+}

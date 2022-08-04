@@ -1,0 +1,9 @@
+.container{
+    width: 80%;
+    min-height: 60vmin;
+    margin: 5% 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+} 

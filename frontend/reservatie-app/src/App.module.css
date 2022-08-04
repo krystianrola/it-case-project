@@ -1,0 +1,27 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+.appContainer{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+.errorContainer{
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.routerContainer{
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+
